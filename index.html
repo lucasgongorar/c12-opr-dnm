@@ -12,7 +12,7 @@
                 scroll-margin-top: 50px;
             }
             nav {
-                backdrop-filter: blur(0.1rem);
+                backdrop-filter: blur(1rem);
             }
             #foto {
                 background: transparent url("https://raw.githubusercontent.com/lucasgongorar/c12-opr-dnm/main/img/fondo.jpg") 0 0 no-repeat;
@@ -99,15 +99,15 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card h-100 shadow-sm">
                             <div class="card-body text-center">                        
-                                <h3 class="m-0 fs-5"><span class="fs-1">📍</span><br/>Hot Girls</h4>
-                                <div class="small text-black-50">Only</div>
+                                <h3 class="m-0 fs-5"><span class="fs-1">📍</span><br/>Santiago</h4>
+                                <div class="small text-black-50">Chile</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card h-100 shadow-sm">
                             <div class="card-body text-center">
-                                <h3 class="m-0 fs-5"><span class="fs-1">📧</span><br/>Email</h4>
+                                <h3 class="m-0 fs-5"><span class="fs-1">💌</span><br/>Email</h4>
                                 <div class="small text-black-50"><a href="#!">lucasgongora@uc.cl</a></div>
                             </div>
                         </div>
@@ -129,7 +129,8 @@
         </footer>
         <!-- Lo que sigue es JavaScript a secas-->
         <script>
-            async function portfolio() {
+          //poner lo que tengo que reemplazar del modal acá//
+        async function portfolio() {
                 const consulta = await fetch("https://raw.githubusercontent.com/lucasgongorar/c12-opr-dnm/main/datos.json");
                 const data = await consulta.json();
                 var donde = document.querySelector("#trabajos");
